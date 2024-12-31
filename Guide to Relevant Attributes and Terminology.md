@@ -1,5 +1,4 @@
-
-																																																										# Attributes and Terminology
+# Attributes and Terminology
 
 Any faction army consists of figurines (or units) with pre-written stats. Depending on the units you choose, you can optimize your army to perform different strategies. Understanding the attributes and stats of each unit is key to finding the optimal strategy.
 
