@@ -35,3 +35,9 @@ These issues can make querying more time-consuming and tedious.
 We refine the dataset to classify each figurine as a distinct document in the NoSQL collection. A new attribute, 'name', is included for each figurine. A 'parent' is included to track figurines related by set. Unique object IDs ('oID') are also included for each figure, in case we later obtain metrics like sales data, common strategies, and public opinions. The added benefit is that this streamlined format also makes querying in MongoDB Compass (a MongoDB GUI) far simpler.
 
 ![image](https://github.com/user-attachments/assets/fec0f634-443c-496a-8408-bef5d35e6c56)
+
+
+Available data does not contain damage values for any unit. This is problematic for any assessment of strategic ability. Rather than meticulously identify the damage associated with each unit, we use ChatGPT to identify appropriate damage values for each unit. These values are initially collected from ChatG{T as a csv file. 
+
+
+[We next need to merge the csv file with the JSON file]
