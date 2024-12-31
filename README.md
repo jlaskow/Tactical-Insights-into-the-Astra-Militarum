@@ -67,7 +67,27 @@ Assuming a unit succeeds on its weapon/ballistic skill check, the controlling pl
 - strength > toughness:
   Player rolls a 1d6. On a 2+, the unit inflicts damage to the target
 
+## attacks
 
+![image](https://github.com/user-attachments/assets/2e9f78fe-efec-4750-84c3-578dcedf5389)
+
+The number of attacks a unit may attampt per turn
+
+## leadership
+
+![image](https://github.com/user-attachments/assets/7eeb4f9d-8aa5-4f3d-88c7-10c216e26cc9)
+
+Leadership represens the minimum number you must roll on a 1d6 for a unit to resist debilitating conditions in combat. The higher the minimum, the more difficult it is for that unit to resist a condition (see Conditions in Terminology  section for more information)
+
+## saves
+
+If a unit successfully roles to attack and overcomes the strength vs toughness challenge, the target must make a save or take a wound. The higher the save value, the higher the target must role on a 1d6 to resist taking a wound. 
+
+## wounds
+
+![image](https://github.com/user-attachments/assets/4e3c624c-a621-4aa6-b7ab-edd190a52f6d)
+
+This determines the amount of damage a unit can sustain before being eliminated
 
 
 
