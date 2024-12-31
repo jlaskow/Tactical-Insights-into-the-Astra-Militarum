@@ -18,17 +18,16 @@ The first faction we will explore is the Astra Militarum. This is a versatile fa
 ![image](https://github.com/user-attachments/assets/8a9e1149-c903-40b0-9d4c-9171f1fd457b)
 
 
-Initially, each playable figurine is listed in a JSON file with names representing Keys:
+Initially, each playable figurine is listed in a JSON file, with names representing Keys:
 
 ![image](https://github.com/user-attachments/assets/eaa8c33b-cd65-4084-bb5f-8db86821de52)
 
-This formatting can make it difficult to filter by keywords or related names. 
-
-In addition, we see that figurines sold in sets (sold together) are grouped under the same parent key:
+This formatting can make it difficult to filter by keywords; in addition, we see that figurines sold in sets (sold together) are grouped under the same parent key:
 
 ![image](https://github.com/user-attachments/assets/e2b74da7-0c69-49b7-b433-4dafe41553c4)
 
-We refine the dataset to classify each figurine as a distinct document in the NoSQL collection. A new attribute, 'name', is included for each figurine. A 'parent' is included to track figuries related by set. Unique object IDs are also included for each figure. in case we later obtain metrics like sales data, common strategies, and public opinions. The added benefit is that this streamlined format also makes querying in MongoDB Compass (a MongoDB GUI) far simpler.
+These issues can make querying more time-consuming and tedious.
 
+We refine the dataset to classify each figurine as a distinct document in the NoSQL collection. A new attribute, 'name', is included for each figurine. A 'parent' is included to track figurines related by set. Unique object IDs ('oID') are also included for each figure, in case we later obtain metrics like sales data, common strategies, and public opinions. The added benefit is that this streamlined format also makes querying in MongoDB Compass (a MongoDB GUI) far simpler.
 
 ![image](https://github.com/user-attachments/assets/fec0f634-443c-496a-8408-bef5d35e6c56)
