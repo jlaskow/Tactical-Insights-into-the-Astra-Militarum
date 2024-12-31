@@ -36,6 +36,45 @@ A unit can exist on its own or in a squad, where all units act as one and gain a
 
 ## movement
 
+![image](https://github.com/user-attachments/assets/c8a6149e-4eba-4d66-bdf2-d0c93a8aefd8)
+
+Movement determines how many inches a unit may move per turn
+
+## weapon_skill
+
+![image](https://github.com/user-attachments/assets/d5b0bbf7-4ba7-4721-8e46-d0622d53838b)
+
+Weapon skill determines a unit's effectiveness in melee combat. The weapon_skill determines the minimum value you must roll on a 6-sided die (1d6) in order to successfully attack in melee with a unit. 
+
+## ballistic_skill
+
+![image](https://github.com/user-attachments/assets/833fc7e0-57d4-4f45-b077-df5b23ed407b)
+
+Weapon skill determines a unit's effectiveness in ranged combat. The weapon_skill determines the minimum value you must roll on a 6-sided die (1d6) in order to successfully attack at range with a unit. 
+
+## strength and toughness
+
+![image](https://github.com/user-attachments/assets/4f1a0d85-8f5d-4e43-9217-bbfb1d12bd9d)
+
+Assuming a unit succeeds on its weapon/ballistic skill check, the controlling player compare's the unit's strength value to the target's toughness. If:
+
+- strength < toughness
+  Player rolls a 1d6. On a 5+, the unit inflicts damage to the target
+  
+- strength = toughness
+  Player rolls a 1d6. On a 4+, the unit inflicts damage to the target
+
+- strength > toughness
+  Player rolls a 1d6. On a 2+, the unit inflicts damage to the target
+
+
+
+
+
+
+
+
+
 
 
 
