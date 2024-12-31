@@ -11,6 +11,35 @@ Link to datasets:
 https://www.kaggle.com/datasets/cjblue83/warhammer-40k-model-stats
 
 We will store and clean all datasets in MongoDB, an open-source NOSQL database platform.
+
+
+# Attributes and Terminology
+
+Any faction army consists of figurines (or units) with pre-written stats. Depending on the units you choose, you can optimize your army to perform different strategies. Understanding the attributes and stats of each unit is key to finding the optimal strategy.
+
+![image](https://github.com/user-attachments/assets/486e0428-2751-4c9b-ae96-fe026c1aea77)
+
+
+## points_value
+
+![image](https://github.com/user-attachments/assets/fa9050a9-f6d8-48a8-b011-82b14a0d51c9)
+
+ Each unit has a point cost, limiting the number of assets you can put on the board; such point costs can increase if you equip a unit with weapon upgrades or additional special abilities. 
+
+  - For example, in a 100-point game, a player might assemble 5 Space Marines at 20 points each (100 total). You could, instead, assemble 2 Space Marines upgraded with more powerful weaponry (50 points each).
+
+## model_count
+
+![image](https://github.com/user-attachments/assets/d04a34e2-b594-41a3-9386-c360ab788808)
+
+A unit can exist on its own or in a squad, where all units act as one and gain additional perks. The minimum number of units required to form a squad depends on the unit in question; similarly, maximum units per squad is dependent on the unit.
+
+## movement
+
+
+
+
+
 # Astra Militarum
 
 The first faction we will explore is the Astra Militarum. This is a versatile faction favoring strong, heavy-hitting artillary and large quantities of cheap, highly mobile infantrymen. 
