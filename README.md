@@ -58,13 +58,13 @@ Weapon skill determines a unit's effectiveness in ranged combat. The weapon_skil
 
 Assuming a unit succeeds on its weapon/ballistic skill check, the controlling player compare's the unit's strength value to the target's toughness. If:
 
-- strength < toughness
+- strength < toughness:
   Player rolls a 1d6. On a 5+, the unit inflicts damage to the target
   
-- strength = toughness
+- strength = toughness:
   Player rolls a 1d6. On a 4+, the unit inflicts damage to the target
 
-- strength > toughness
+- strength > toughness:
   Player rolls a 1d6. On a 2+, the unit inflicts damage to the target
 
 
