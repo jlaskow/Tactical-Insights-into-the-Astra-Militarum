@@ -37,7 +37,25 @@ We refine the dataset to classify each figurine as a distinct document in the No
 ![image](https://github.com/user-attachments/assets/fec0f634-443c-496a-8408-bef5d35e6c56)
 
 
-Available data does not contain damage values for any unit. This is problematic for any assessment of strategic ability. Rather than meticulously identify the damage associated with each unit, we use ChatGPT to identify appropriate damage values for each unit. These values are initially collected from ChatG{T as a csv file. 
+## Missing Damage Attributes
+
+Available data does not contain damage values for any unit. This is problematic for any assessment of strategic ability. Rather than meticulously identify the damage associated with each unit, we use ChatGPT to identify appropriate damage values. These values are initially collected from ChatGPT as a csv file. 
+
+![image](https://github.com/user-attachments/assets/5c0de374-e520-45ae-ab91-61fdbe49213e)
+
+Damage values from the CSV are integrated into the JSON file for Astra Militarum data. 
+
+## Unwanted Characters and Formatting
+
+Data was finally cleaned to remove unwanted characters and include min and max values for ranged attributes.
+
+![image](https://github.com/user-attachments/assets/22f67b71-16f9-4d06-a6c6-c50bc7dab6d8)
 
 
-[We next need to merge the csv file with the JSON file]
+
+
+
+
+
+
+
