@@ -2,9 +2,7 @@
 
 Any faction army consists of figurines (or units) with pre-written stats. Depending on the units you choose, you can optimize your army to perform different strategies. Understanding the attributes and stats of each unit is key to finding the optimal strategy.
 
-![image](https://github.com/user-attachments/assets/486e0428-2751-4c9b-ae96-fe026c1aea77)
-
-
+![image](https://github.com/user-attachments/assets/019703c3-c6e3-43c9-b029-156a66d8c8f3)
 
 ## Attributes
 
@@ -81,6 +79,8 @@ This determines the amount of damage a unit can sustain before being eliminated
 ### damage
 
 On a succesful attack a target that fails its save, damage represents the number wound penalties deducted by the target.
+
+![image](https://github.com/user-attachments/assets/84de7b0f-7d23-4040-a89f-d86c30931873)
 
 
 
