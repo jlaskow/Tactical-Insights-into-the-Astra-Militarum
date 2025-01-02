@@ -6,12 +6,6 @@ Any faction army consists of figurines (or units) with pre-written stats. Depend
 
 
 
-
-
-
-
-
-
 ## Attributes
 
 
@@ -83,6 +77,10 @@ If a unit successfully roles to attack and overcomes the strength vs toughness c
 ![image](https://github.com/user-attachments/assets/4e3c624c-a621-4aa6-b7ab-edd190a52f6d)
 
 This determines the amount of damage a unit can sustain before being eliminated
+
+### damage
+
+On a succesful attack a target that fails its save, damage represents the number wound penalties deducted by the target.
 
 
 
